@@ -1,4 +1,9 @@
 {
   "target": "mix_test",
+  "keyfiles": [
+    "mix.exs",
+    "mix.lock"
+  ],
+  "selector": "source.elixir",
   "working_dir": "${project_path}"
 }
