@@ -1,5 +1,13 @@
 {
+  "cmd": [
+    "mix",
+    "test",
+    "$file"
+  ],
   "target": "mix_test_file",
-  "working_dir": "${project_path}",
-  "file_patterns": ["*_test.exs"]
+  "working_dir": "${project_path:${folder:${file_path}}}",
+  "file_regex": "(\\S+?[/\\]\\S+?\\.[a-zA-Z]+):(\\d+)(?::(\\d+))?",
+  "file_patterns": [
+    "*_test.exs"
+  ]
 }

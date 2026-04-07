@@ -1,9 +1,13 @@
 {
-  "target": "mix_test",
+  "cmd": [
+    "mix",
+    "test"
+  ],
   "keyfiles": [
     "mix.exs",
     "mix.lock"
   ],
   "selector": "source.elixir",
-  "working_dir": "${project_path}"
+  "file_regex": "(\\S+?[/\\]\\S+?\\.[a-zA-Z]+):(\\d+)(?::(\\d+))?",
+  "working_dir": "${project_path:${folder:${file_path}}}",
 }

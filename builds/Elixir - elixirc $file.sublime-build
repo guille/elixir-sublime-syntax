@@ -1,8 +1,14 @@
 {
-  "cmd": ["elixirc", "$file"],
+  "cmd": [
+    "elixirc",
+    "$file"
+  ],
   "selector": "source.elixir",
   "windows": {
     "working_dir": "$file_path",
-    "cmd": ["elixirc.bat", "$file_name"]
+    "cmd": [
+      "elixirc.bat",
+      "$file_name"
+    ]
   }
 }

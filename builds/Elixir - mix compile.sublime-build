@@ -1,16 +1,28 @@
 {
-  "cmd": ["mix", "compile"],
+  "cmd": [
+    "mix",
+    "compile"
+  ],
   "working_dir": "${project_path:${folder}}",
   "selector": "source.elixir",
   "windows": {
-    "cmd": ["mix.bat", "compile"]
+    "cmd": [
+      "mix.bat",
+      "compile"
+    ]
   },
   "variants": [
     {
       "name": "Dependencies",
-      "cmd": ["mix", "deps.compile"],
+      "cmd": [
+        "mix",
+        "deps.compile"
+      ],
       "windows": {
-        "cmd": ["mix.bat", "deps.compile"]
+        "cmd": [
+          "mix.bat",
+          "deps.compile"
+        ]
       }
     }
   ]
