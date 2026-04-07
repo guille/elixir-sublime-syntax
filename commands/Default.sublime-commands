@@ -1,22 +1,83 @@
 [
-  { "caption": "ElixirSyntax: Settings", "command": "edit_settings", "args": {
-    "base_file": "${packages}/ElixirSyntax/settings/ElixirSyntax.sublime-settings",
-    "default": "{\n  $0\n}\n"
-  } },
-  { "caption": "ElixirSyntax: Open Hex Docs", "command": "open_hex_docs" },
-  { "caption": "ElixirSyntax: Search Hex Packages", "command": "search_hex_packages" },
-  { "caption": "Mix Test: Settings", "command": "mix_test_settings" },
-  { "caption": "Mix Test: All", "command": "mix_test" },
-  { "caption": "Mix Test: File", "command": "mix_test_file" },
-  { "caption": "Mix Test: Selection(s)", "command": "mix_test_selection" },
-  { "caption": "Mix Test: Failed", "command": "mix_test_failed" },
-  { "caption": "Mix Test: Repeat", "command": "mix_test_repeat" },
-  { "caption": "Mix Test: Set --seed", "command": "mix_test_set_seed" },
-  { "caption": "Mix Test: Toggle --stale Flag", "command": "mix_test_toggle_stale_flag" },
-  { "caption": "Mix Test: Switch to Code or Test", "command": "mix_test_switch_to_code_or_test" },
-  { "caption": "Mix Test: Show Panel", "command": "mix_test_show_panel" },
-  { "caption": "Mix Test: Hide Panel", "command": "mix_test_hide_panel" },
-  { "caption": "Mix Format: File", "command": "mix_format_file" },
-  { "caption": "Mix Format: Project / Folder", "command": "mix_format_project" },
-  { "caption": "Mix Format: Toggle Auto-Formatting", "command": "mix_format_toggle_auto_format" },
+  {
+    "caption": "Preferences: ElixirSyntax Settings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/ElixirSyntax/settings/ElixirSyntax.sublime-settings",
+      "default": "{\n  $0\n}\n"
+    }
+  },
+  {
+    "caption": "Preferences: ElixirSyntax Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/ElixirSyntax/keymaps/Default.sublime-keymap",
+      "user_file": "${packages}/User/Default ($platform).sublime-keymap",
+      "default": "[\n\t$0\n]\n",
+    }
+  },
+  {
+    "caption": "ElixirSyntax: Open Hex Docs",
+    "command": "open_hex_docs"
+  },
+  {
+    "caption": "ElixirSyntax: Search Hex Packages",
+    "command": "search_hex_packages"
+  },
+  {
+    "caption": "Mix Test: Settings",
+    "command": "mix_test_settings"
+  },
+  {
+    "caption": "Mix Test: All",
+    "command": "mix_test"
+  },
+  {
+    "caption": "Mix Test: File",
+    "command": "mix_test_file"
+  },
+  {
+    "caption": "Mix Test: Selection(s)",
+    "command": "mix_test_selection"
+  },
+  {
+    "caption": "Mix Test: Failed",
+    "command": "mix_test_failed"
+  },
+  {
+    "caption": "Mix Test: Repeat",
+    "command": "mix_test_repeat"
+  },
+  {
+    "caption": "Mix Test: Set --seed",
+    "command": "mix_test_set_seed"
+  },
+  {
+    "caption": "Mix Test: Toggle --stale Flag",
+    "command": "mix_test_toggle_stale_flag"
+  },
+  {
+    "caption": "Mix Test: Switch to Code or Test",
+    "command": "mix_test_switch_to_code_or_test"
+  },
+  {
+    "caption": "Mix Test: Show Panel",
+    "command": "mix_test_show_panel"
+  },
+  {
+    "caption": "Mix Test: Hide Panel",
+    "command": "mix_test_hide_panel"
+  },
+  {
+    "caption": "Mix Format: File",
+    "command": "mix_format_file"
+  },
+  {
+    "caption": "Mix Format: Project / Folder",
+    "command": "mix_format_project"
+  },
+  {
+    "caption": "Mix Format: Toggle Auto-Formatting",
+    "command": "mix_format_toggle_auto_format"
+  },
 ]
