@@ -11,21 +11,6 @@
             "caption": "ElixirSyntax",
             "children": [
               {
-                "caption": "README",
-                "command": "open_file",
-                "args": {
-                  "file": "${packages}/ElixirSyntax/README.md"
-                }
-              },
-              {
-                "caption": "CHANGELOG",
-                "command": "open_file",
-                "args": {
-                  "file": "${packages}/ElixirSyntax/CHANGELOG.md"
-                }
-              },
-              { "caption": "-" },
-              {
                 "caption": "Settings",
                 "command": "edit_settings",
                 "args": {
